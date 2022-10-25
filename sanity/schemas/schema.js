@@ -6,7 +6,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 
 // We import object and document schemas
 
-import pageInfo from "./pageInfo";
+import pageInfo from "./post";
 import experience from "./experience";
 import skill from "./skill";
 import social from "./social";
