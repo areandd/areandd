@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { SocialIcon } from "react-social-icons";
+
 
 type Props = {};
 
@@ -51,20 +51,7 @@ export default function Projects({}: Props) {
                 
                 twitter
               </h4>
-              <div>
-        <SocialIcon
-          className=" m-2 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350"
-          url="https://www.twitter.com/areandd"
-        />
-        <SocialIcon
-          className="m-2 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350"
-          url="https://www.github.com/areandd"
-        />
-        <SocialIcon
-          className="m-2 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350"
-          url="https://www.linkedin.com/in/isaiah-desta-123269226/"
-        />
-      </div>
+             
              
             </div>
           </motion.div>

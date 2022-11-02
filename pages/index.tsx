@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
@@ -13,8 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>portfolio test</title>
       </Head>
-      <Header />
-      
+
       <section id="hero" className="snap-start">
         <Hero />
       </section>
