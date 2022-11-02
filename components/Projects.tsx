@@ -1,16 +1,24 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { SocialIcon } from "react-social-icons";
 
 type Props = {};
 
 export default function Projects({}: Props) {
   const projects = [1, 2, 3];
 
+  
+
   return (
+    
+    
+   
+
     <div
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row
     max-w-full justify-evenly mx-auto items-center z-0"
     >
+      
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
@@ -29,7 +37,7 @@ export default function Projects({}: Props) {
             transition={{
               duration: 1.5,
             }}
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 
+            className="w-screen flex-shrink-0 snap-center snap-x-mandatory snap-mandatory flex flex-col space-y-5 
             items-center justify-center p-20 md:p-44 h-screen"
           >
             <motion.img
@@ -43,6 +51,20 @@ export default function Projects({}: Props) {
                 
                 twitter
               </h4>
+              <div>
+        <SocialIcon
+          className=" m-2 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350"
+          url="https://www.twitter.com/areandd"
+        />
+        <SocialIcon
+          className="m-2 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350"
+          url="https://www.github.com/areandd"
+        />
+        <SocialIcon
+          className="m-2 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350"
+          url="https://www.linkedin.com/in/isaiah-desta-123269226/"
+        />
+      </div>
              
             </div>
           </motion.div>

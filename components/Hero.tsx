@@ -29,26 +29,15 @@ export default function Hero({}: Props) {
         </h1>
         <div className="pt-5">
           <Link href="#projects">
-          <button className="text-gray-400 bg-white m-2 px-10 py-4 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350">
+            <button className="text-[#0251FF] hover:text-white bg-white m-2 px-10 py-4 shadow-md rounded-full font-bold hover:shadow-2xl hover:bg-[#0251FF] active:scale-90 transition duration-350">
               Projects
             </button>
           </Link>
           <Link href="#skills">
-          <button className="text-gray-400 bg-white m-2 px-10 py-4 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350">
-              Skills
+          <button className="text-[#0251FF] hover:text-white bg-white m-2 px-10 py-4 shadow-md rounded-full font-bold hover:shadow-2xl hover:bg-[#0251FF] active:scale-90 transition duration-350">
+              Algos
             </button>
           </Link>
-          <Link href="#about">
-          <button className="text-gray-400 bg-white m-2 px-10 py-4 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350">
-              About
-            </button>
-          </Link>
-          <Link href="#experience">
-          <button className="text-gray-400 bg-white m-2 px-10 py-4 shadow-md rounded-full font-bold hover:shadow-2xl active:scale-90 transition duration-350">
-              Experience
-            </button>
-          </Link>
-          
         </div>
       </div>
     </div>
