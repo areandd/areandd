@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[black]/80">
+    <div className="bg-white h-screen overflow-y-scroll overflow-x-hidden z-0 snap-y snap-mandatory ">
       <Head>
         <title>portfolio test</title>
       </Head>
